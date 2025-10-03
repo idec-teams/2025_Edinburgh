@@ -31,7 +31,7 @@
 
 * Ran gels for analysis of lysis strategies
 
-![Gel2](week_3_02_07_gel.png)   ![Gel3](week_3_02_07_gel.png)
+![Gel2](week_3_gel2.png)   ![Gel3](week_3_gel3.png)
 
 
 •	04/07 – degradation mixtures set up with HIS1 lysate, Empty Vector lysate, and Purified HIS1 with polypropylene film and fibres.
@@ -39,17 +39,17 @@
 ---
 
 **Week 4 (07/07-11/07)**
-* 07/07-10/07 – reaction mixtures were exchanged everyday in preparation for GC-MS
-* Surface Contact Angle (SCA) was optimised with camera and light source
+* Reaction mixtures were exchanged every day in preparation for GC-MS
+* Surface Contact Angle (SCA) was optimised with the camera and the light source
   * Analysis was done with ImageJ DropShape Plugin 
   * 07/07-10/07 – reaction mixtures exchanged and measurements taken every 24 hours
 * AFM 
   * 10/07 - Reaction mixtures set up on 5mg red PP
   * 11/07 – Reaction mixtures exchanged and left over the weekend
-* Activity of HIS1 using mass spec was explored, targetinf reported substrates like HPP
+* Activity of HIS1 using mass spec was explored, targeting reported substrates like HPP
 * Preliminary testing of Ni-PV assay
  * PP fibres were treated with HIS1 lysate and EV lysate
- * No result as incorrect blank was used and the spec was unknown as a calibration curve was not done prior.  
+ * No result as an incorrect blank was used and the spec was unknown as a calibration curve was not done prior.  
 
 ---
 
@@ -59,13 +59,21 @@
    * Quantification on SDS gels confirms no precipitation
 * SCA optimisation with camera and light source was continued
   * At the end of the week, we decided to discontinue this method.
-  * Tensiometer was sources and read for SCA analysis in the coming week 
+  * Tensiometer was sourced and read for SCA analysis in the coming week 
 * Ni-PV assay
-  * A calibration curve made to decipher the appropriate concentration of Ni2+ to use
-  * Deciphered appropriate volume of reaction mix (with PP fibre) should be used for the assay.
+  * A calibration curve was made to decipher the appropriate concentration of Ni2+ to use
+  * Deciphered the appropriate volume of reaction mix (with PP fibre) that should be used for the assay.
   * Another round of testing showed that lysate and FeSO4 were interfering with the assay. So plastics need to be cleaned before testing.
-  * PV dye is light sensitive, so change in absorbance was measured over 8 minutes. There was no significant change in absorbance.
+  * PV dye is light sensitive, so a change in absorbance was measured over 8 minutes. There was no significant change in absorbance.
 * 25/07 – set up reaction mixtures on clear film
+
+---
+
+
+
+
+
+
 
 ---
   
