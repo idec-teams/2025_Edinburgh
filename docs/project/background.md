@@ -7,14 +7,14 @@ Polypropylene (PP) accounts for 14% of global polymer production, yet its recycl
 
 Degradation of PP typically occurs through abiotic pathways, primarily initiated by UV-induced cleavage of C-H bonds. This photochemical process generates hydroperoxides and triggers radical chain reactions, leading to β-scission and the formation of oxygenated fragments like ketones, aldehydes, and olefins. This process can be seen in the figure below.
 
-Add figure. 1A
+![Figure1A](fig1A.jpg)  
 
 ### The discovery of HIS1
 
 A recent breakthrough identified an enzyme capable of notable PP degradation through hydroxylation. Tan et al. performed a metagenomic screen for bioremediation-related enzyme sequences, leading to the discovery of HIS1, an Fe(II)/2-oxoglutarate-dependent oxygenase originally found in *Oryza sativa japonica*. 
 This enzyme family employs a conserved 2-His-1-carboxylate facial triad to activate O₂, generating a high-valent Fe(IV)=O intermediate, and abstract hydrogen atoms from otherwise inert C–H bonds before hydroxylation [^4]. 
 
-Add figure 1B
+![Figure1B](fig1B.jpg)  
 
 HIS1 is known to confer resistance to multiple β-triketone herbicides (bTHs), such as benzobicylon (BBC), by catalysing their hydroxylation, which neutralises their HPPD-targeting activity [^5]. Its demonstrated ability to detoxify a wide range of structurally related substrates highlights its promiscuity and suggests a potential function as a polypropylene oxygenase (PPase) capable of polymer hydroxylation.
 
