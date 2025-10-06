@@ -7,8 +7,8 @@
 
 **Role:** Team Leader   
 **Degree:** BSc Biological Sciences (Biotechnology)  
-**Year:** 4th year
-**Favourite iDEC Memory:** Team Potluck. 
+**Year:** 4th year  
+**Favourite iDEC Memory:** Team Potluck.  
 
 ---
 
