@@ -1,6 +1,6 @@
 # Results
 
-### Directed Evolution and Computational Analysis
+## Directed Evolution and Computational Analysis
 
 Molecular dynamics and docking simulations of the enzyme HIS1 with PP identified several surface-exposed residues as potential mutation targets to enhance substrate binding. FoldX-based mutational stability screening suggested seven key sites (N110, E148, A297, D304, E305, D307) (Fig. 1) with favourable ΔΔG values below -0.15, indicating potential structural stability upon substitution with hydrophobic residues. Due to screening capacities and time restraints, we identified the degenerate codon DTN to be optimal for our experiments, as it yields an array of four hydrophobic residues (I, V, L, and F) and a stop codon (Fig. 2).
 
@@ -10,7 +10,7 @@ Molecular dynamics and docking simulations of the enzyme HIS1 with PP identified
 ![fig2](fig2.png) 
 ***Figure 2. Average ΔΔG of shortlisted residues.*** *ΔΔG was calculated for all four hydrophobic residues encoded by the degenerate codon DTN before an average value was calculated. Targets selected for mutation are highlighted in red. Selection was conducted using a threshold value of -0.15.  ΔΔG is the measure of the change in protein folding free energy, where ΔΔG = ΔGMutant – ΔGWT; a positive value means the mutation could destabilise the protein, whereas a negative value means the mutation could stabilise the structure[^2][^3]*
 
-### Library Generation
+## Library Generation
 
 To efficiently minimize library size, a dual-screen approach was adapted. Single-site mutants were intended for initial screening, followed by combinatorial mutagenesis of beneficial variants. To generate site-directed mutations, we adapted a protocol for combinatorial library generation to create single-site mutants [^4]. This strategy was chosen as it would facilitate both single-site and combinatorial mutagenesis. However, sequencing of transformed colonies confirmed the presence of the gene but not the intended N110 mutation, halting further library construction.
 
@@ -20,7 +20,7 @@ To efficiently minimize library size, a dual-screen approach was adapted. Single
 
 ---
 
-### Evaluation of Enzymatic Activity
+## Evaluation of Enzymatic Activity
 
 #### Thin-Layer Chromatography (TLC)
 TLC analysis of HIS1 (in lysate and purified form) incubated with HPP showed no detectable enzymatic activity (Fig. 4). HPP spots remained unchanged compared to the controls, indicating no substrate conversion.
@@ -53,7 +53,7 @@ FTIR spectra of HIS1-treated samples showed no detectable oxidation peaks compar
 
 --- 
 
-### High-Throughput Assay Development
+## High-Throughput Assay Development
 
 #### Toluidine Blue O (TBO) Assay
 
@@ -65,7 +65,7 @@ A secondary colorimetric assay quantified surface carboxyl groups via Ni²⁺ bi
 
 --- 
 
-### Summary
+## Summary
 
 Overall, computational modeling identified seven potential mutation targets for HIS1 aimed at improving PP binding. Experimental mutagenesis efforts partially succeeded in producing single-site mutants, through confirmed substitutions were not achieved. Enzymatic assays and analytical techniques (TLC, GC-MS, AFM, FTIR) showed no definitive evidence of HIS1 activity against polypropylene. Two colorimetric assays for detecting PP surface oxidation were developed and validated for positive controls, but HIS1-treated samples produced no measurable oxidation under current conditions.
 
