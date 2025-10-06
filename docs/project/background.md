@@ -1,13 +1,13 @@
 # Background
 
-### Polypropylene and its challenges
+### Polypropylene and its Challenges
 Polypropylene (PP) accounts for 14% of global polymer production, yet its recycling rate remains below 1% [^1]. Approximately 60% of manufactured plastics are ultimately discarded, contributing to landfill accumulation and environmental pollution [^2]. While most research on plastic biodegradation has targeted hydrolysable polymers like PET, PP remains resistant due to its non-hydrolysable backbone and high crystallinity [^3]. The chemical structure of PP, consisting of strong covalent bonds [CH3CH6]n, makes it highly resistant to enzymatic attack. 
 
 Degradation of PP typically occurs through abiotic pathways, primarily initiated by UV-induced cleavage of C-H bonds. This photochemical process generates hydroperoxides and triggers radical chain reactions, leading to β-scission and the formation of oxygenated fragments like ketones, aldehydes, and olefins. This process can be seen in the figure below.
 
 ![Figure1A](fig1A.jpg)  
 
-### The discovery of HIS1
+### The Discovery of HIS1
 
 A recent breakthrough identified an enzyme capable of notable PP degradation through hydroxylation. Tan et al. performed a metagenomic screen for bioremediation-related enzyme sequences, leading to the discovery of HIS1, an Fe(II)/2-oxoglutarate-dependent oxygenase originally found in *Oryza sativa japonica*. 
 This enzyme family employs a conserved 2-His-1-carboxylate facial triad to activate O₂, generating a high-valent Fe(IV)=O intermediate, and abstract hydrogen atoms from otherwise inert C–H bonds before hydroxylation [^4]. 
