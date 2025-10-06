@@ -1,7 +1,5 @@
 # Background
 
----
-
 ### Polypropylene and its challenges
 Polypropylene (PP) accounts for 14% of global polymer production, yet its recycling rate remains below 1% [^1]. Approximately 60% of manufactured plastics are ultimately discarded, contributing to landfill accumulation and environmental pollution [^2]. While most research on plastic biodegradation has targeted hydrolysable polymers like PET, PP remains resistant due to its non-hydrolysable backbone and high crystallinity [^3]. The chemical structure of PP, consisting of strong covalent bonds [CH3CH6]n, makes it highly resistant to enzymatic attack. 
 
