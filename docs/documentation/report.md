@@ -1,6 +1,3 @@
 # Report 
 
-[Report](files/report.pdf)
-
-
-<iframe src="report.pdf" width="100%" height="800px" style="border:none;"></iframe>
+<embed src="report.pdf" style="height: 80vh; width: 50vw;">
