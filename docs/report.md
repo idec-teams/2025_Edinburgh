@@ -1,3 +1,3 @@
 # Report
 
-<embed src="report.pdf" type="application/pdf" width="100%" height="800px" />
+<embed src="../report.pdf" type="application/pdf" width="100%" height="800px" />
