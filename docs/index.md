@@ -2,7 +2,7 @@
 
 # Development of a High-Throughput Assay for Directed Evolution of Polypropylene-Degrading Enzyme HIS1
 
-## Abstract
+
 
 The UK produced 197.1 thousand metric tonnes of polypropylene (PP) in 2022; only ~1% of this
 gets recycled. HIS1 (HPPD Inhibitor Sensitive 1), a Fe(II)/2-oxoglutarate-dependent oxygenase,
