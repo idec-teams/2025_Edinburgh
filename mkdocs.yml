@@ -50,5 +50,5 @@ nav:
       - Protocols: documentation/protocols.md
       - Lab notebook: documentation/notebook.md
   - Report: report.md
-  - Supplementary Material: sup.md
+  - Supplementary Material: Supplementary Material.md
   - Some useful features: useful_features.md
