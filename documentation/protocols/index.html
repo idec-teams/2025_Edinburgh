@@ -1,0 +1,1286 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../project/results/">
+      
+      
+        <link rel="next" href="../notebook/">
+      
+      
+      <link rel="icon" href="../../img/idec-wiki-logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+    
+    
+      
+        <title>Protocols - iDEC 2025 | Edinburgh</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2a3383ac.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#protocols" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="iDEC 2025 | Edinburgh" class="md-header__button md-logo" aria-label="iDEC 2025 | Edinburgh" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iDEC 2025 | Edinburgh
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Protocols
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/idec-teams/2025_Edinburgh" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="iDEC 2025 | Edinburgh" class="md-nav__button md-logo" aria-label="iDEC 2025 | Edinburgh" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    iDEC 2025 | Edinburgh
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/idec-teams/2025_Edinburgh" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Team
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Project
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/background/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Background
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/results/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Results
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Documentation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Protocols
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protocols
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-in-silico-simulation-of-his1substrate-docking" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. In Silico Simulation of HIS1–Substrate Docking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-sub-cloning-and-expression-of-his1" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Sub-Cloning and Expression of HIS1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-mutant-library-synthesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Mutant Library Synthesis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Mutant Library Synthesis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-two-phase-mutagenesis-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Two-Phase Mutagenesis Strategy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-vector-amplification" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Vector Amplification
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-site-directed-mutagenesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Site-Directed Mutagenesis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.3 Site-Directed Mutagenesis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-degenerate-codon-substitution-bsai" class="md-nav__link">
+    <span class="md-ellipsis">
+      (a) Degenerate Codon Substitution (BsaI)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-mutant-megaprimer-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      (b) Mutant Megaprimer Method
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primer-sequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      Primer Sequences
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-ligation-transformation-and-sequencing" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Ligation, Transformation, and Sequencing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-his1-protein-purification" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. HIS1 Protein Purification
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-polypropylene-degradation-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Polypropylene Degradation Assay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-kmno4-oxidation-of-polypropylene" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. KMnO₄ Oxidation of Polypropylene
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-colorimetric-quantification-of-surface-carboxyl-groups-pv-ni-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Colorimetric Quantification of Surface Carboxyl Groups (PV-Ni Assay)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-toluidine-blue-o-tbo-staining-to-quantify-surface-organic-compounds" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Toluidine Blue O (TBO) Staining to Quantify Surface Organic Compounds
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-surface-contact-angle-sca-measurement" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Surface Contact Angle (SCA) Measurement
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-ftir-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. FTIR Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-afm-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. AFM Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-gc-ms-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. GC-MS Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-tlc-analysis-of-hpp-breakdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      14. TLC Analysis of HPP Breakdown
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notebook/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab notebook
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Report
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Supplementary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Supplementary Material
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-in-silico-simulation-of-his1substrate-docking" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. In Silico Simulation of HIS1–Substrate Docking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-sub-cloning-and-expression-of-his1" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Sub-Cloning and Expression of HIS1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-mutant-library-synthesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Mutant Library Synthesis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Mutant Library Synthesis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-two-phase-mutagenesis-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Two-Phase Mutagenesis Strategy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-vector-amplification" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Vector Amplification
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-site-directed-mutagenesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Site-Directed Mutagenesis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.3 Site-Directed Mutagenesis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-degenerate-codon-substitution-bsai" class="md-nav__link">
+    <span class="md-ellipsis">
+      (a) Degenerate Codon Substitution (BsaI)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-mutant-megaprimer-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      (b) Mutant Megaprimer Method
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primer-sequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      Primer Sequences
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-ligation-transformation-and-sequencing" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Ligation, Transformation, and Sequencing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-his1-protein-purification" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. HIS1 Protein Purification
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-polypropylene-degradation-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Polypropylene Degradation Assay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-kmno4-oxidation-of-polypropylene" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. KMnO₄ Oxidation of Polypropylene
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-colorimetric-quantification-of-surface-carboxyl-groups-pv-ni-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Colorimetric Quantification of Surface Carboxyl Groups (PV-Ni Assay)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-toluidine-blue-o-tbo-staining-to-quantify-surface-organic-compounds" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Toluidine Blue O (TBO) Staining to Quantify Surface Organic Compounds
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-surface-contact-angle-sca-measurement" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Surface Contact Angle (SCA) Measurement
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-ftir-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. FTIR Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-afm-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. AFM Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-gc-ms-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. GC-MS Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-tlc-analysis-of-hpp-breakdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      14. TLC Analysis of HPP Breakdown
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="protocols">Protocols</h1>
+<hr />
+<h3 id="1-in-silico-simulation-of-his1substrate-docking">1. In Silico Simulation of HIS1–Substrate Docking</h3>
+<ul>
+<li>Perform molecular dynamics (MD) using GROMACS (AMBER99SB-ILDN, TIP3P water model):  </li>
+<li>Energy minimization → 100ps NVT → 100ps NPT → 5ns production run.  </li>
+<li>Assess trajectory quality via RMSD, RMSF, and radius of gyration; confirm equilibration (~1ns).  </li>
+<li>Calculate per-residue solvent-accessible surface area (SASA) using gmx sasa; classify residues as exposed (&gt;0.2nm²).  </li>
+<li>Construct a polypropylene (PP) decamer in Open Babel.  </li>
+<li>Perform Autodock Vina docking using the final MD structure as the receptor (search box = full surface).  </li>
+<li>Generate 20 poses; identify residue–ligand contacts within 4–6Å.  </li>
+<li>Exclude residues within 6Å of cofactors (Fe²⁺, 2-oxoglutarate; from PDB 8s7b), buried (low SASA), or highly flexible (RMSF &gt; 0.25nm).  </li>
+<li>Use FoldX to compute ΔΔG per hydrophobic substitution; rank residues by mutational stability.</li>
+</ul>
+<hr />
+<h3 id="2-sub-cloning-and-expression-of-his1">2. Sub-Cloning and Expression of HIS1</h3>
+<p><strong>Host:</strong> <em>E. coli</em> BL21(DE3)<br />
+<strong>Plasmid:</strong> pET28-A–HIS1  </p>
+<ul>
+<li>Inoculate 5mL LB + 5µL kanamycin from glycerol stock; incubate overnight (37°C, 200rpm).  </li>
+<li>Transfer 2mL to 200mL TB + 200µL kanamycin; grow (30°C, 180rpm) until OD₆₀₀ = 0.8–0.9.  </li>
+<li>Chill culture on ice (20 min).  </li>
+<li>Add cofactors: 2mM FeSO₄ and 6mM 2-oxoglutarate.  </li>
+<li>Induce with 0.4mM IPTG; incubate (20°C, 200rpm, 20h).  </li>
+<li>Harvest cells (10,000 × g, 20 min, 4°C); discard supernatant.  </li>
+<li>Store pellets at –20°C.</li>
+</ul>
+<hr />
+<h3 id="3-mutant-library-synthesis">3. Mutant Library Synthesis</h3>
+<h4 id="31-two-phase-mutagenesis-strategy">3.1 Two-Phase Mutagenesis Strategy</h4>
+<ul>
+<li>Target residues: 110, 148, 268, 297, 304, 305, 307.  </li>
+<li>Use degenerate codon DTN for hydrophobic substitutions.  </li>
+<li>Two-phase mutagenesis planned to minimize library size (deferred due to screening delay).</li>
+</ul>
+<h4 id="32-vector-amplification">3.2 Vector Amplification</h4>
+<ul>
+<li>Purify pET28-A using QIAprep Miniprep.  </li>
+<li>Digest with EcoRI and HindIII (1µL each, 1h).  </li>
+<li>Verify by 0.8% agarose gel; extract the target band.  </li>
+<li>Measure DNA concentration with Nanodrop.</li>
+</ul>
+<h4 id="33-site-directed-mutagenesis">3.3 Site-Directed Mutagenesis</h4>
+<h5 id="a-degenerate-codon-substitution-bsai">(a) Degenerate Codon Substitution (BsaI)</h5>
+<ul>
+<li>Primers: PPase_Fs and PPase_Rs.  </li>
+<li>Run PCR → visualize on 0.8% agarose gel.  </li>
+<li>No visible bands → method discontinued.</li>
+</ul>
+<h5 id="b-mutant-megaprimer-method">(b) Mutant Megaprimer Method</h5>
+<ul>
+<li>Design mutagenic primers with DTN codon (Tm = 60°C).  </li>
+<li>Perform asymmetric PCR (100:1 primer ratio; 35 cycles, 65°C annealing).  </li>
+<li>Run symmetric PCR as a control.  </li>
+<li>Digest products with DpnI (1µL); purify (Promega Wizard® kit).  </li>
+<li>Pool and concentrate 6 × 50µL reactions; measure DNA concentration.  </li>
+<li>Generate full-length genes using mutant megaprimers as reverse primers.  </li>
+<li>Digest (EcoRI + HindIII, 1h), purify, verify by gel, and quantify DNA.</li>
+</ul>
+<h4 id="primer-sequences">Primer Sequences</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Purpose</strong></th>
+<th><strong>Primer Name</strong></th>
+<th><strong>Primer Sequence</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cloning (non-mutagenic)</strong></td>
+<td>PPase_F</td>
+<td>ACTGGAATTCCCTGGTGCCACGCG</td>
+</tr>
+<tr>
+<td></td>
+<td>PPase_R</td>
+<td>CTAAATACGCAGGCTATCAATATAGCGTTC</td>
+</tr>
+<tr>
+<td><strong>Combinatorial mutagenesis</strong></td>
+<td>PPase_110_F</td>
+<td>CGCAAACAGAAATTCAGC<strong>dtn</strong>CTGATCGATGGCAAGAAC</td>
+</tr>
+<tr>
+<td></td>
+<td>PPase_148_F</td>
+<td>CGTGTGGAACCGAAA<strong>dtn</strong>GAACAGGATCTGGCATTTTG</td>
+</tr>
+<tr>
+<td></td>
+<td>PPase_268_F</td>
+<td>CTGCTGATTAATCTGGGT<strong>dtn</strong>ACAATGGAAGTTATGTGC</td>
+</tr>
+<tr>
+<td></td>
+<td>PPase_297_F</td>
+<td>GAAAAAGAACGTATTAGCCTG<strong>dtn</strong>ATGCTGTATAGCGTGAATG</td>
+</tr>
+<tr>
+<td></td>
+<td>PPase_304_F</td>
+<td>CAATGCTGTATAGCGTGAAT<strong>dtn</strong>GAGAAAGATATTGAACCTGCC</td>
+</tr>
+<tr>
+<td></td>
+<td>PPase_305_F</td>
+<td>GCTGTATAGCGTGAATGAT<strong>dtn</strong>AAAGATATTGAACCTGCCG</td>
+</tr>
+<tr>
+<td></td>
+<td>PPase_307_F</td>
+<td>GTATAGCGTGAATGATGAGAAA<strong>dtn</strong>ATTGAACCTGCCGC</td>
+</tr>
+<tr>
+<td><strong>Single-site mutagenesis</strong></td>
+<td>PPase_Fs</td>
+<td>atcGGTCTCttcagc<strong>dtn</strong>CTGATCGATGGCAAGAACTTT</td>
+</tr>
+<tr>
+<td></td>
+<td>PPase_Rs</td>
+<td>ATCggtctcGCTGAATTTCTGTTTGCGTTC</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="4-ligation-transformation-and-sequencing">4. Ligation, Transformation, and Sequencing</h3>
+<p><strong>Ligation:</strong>
+- Set up 20µL reactions with T4 DNA ligase (+/– insert, +/– ligase controls).<br />
+- Incubate 1h at room temperature.</p>
+<p><strong>Transformation:</strong>
+- Mix 10µL ligation mix + 100µL competent <em>E. coli</em>.<br />
+- Controls:<br />
+  - Positive: 50µL cells + 1µL template DNA.<br />
+  - Negative: 50µL cells only.<br />
+- Ice (15 min) → Heat shock (42°C, 1 min) → Ice (1 min).<br />
+- Add 250µL SOC; incubate (37°C, 1 h).<br />
+- Plate 50µL onto LB agar; incubate overnight (37°C).</p>
+<p><strong>Sequencing:</strong>
+- Send 6 colonies (+L+I plates) for Sanger sequencing using PPase_F/R primers.</p>
+<hr />
+<h3 id="5-his1-protein-purification">5. HIS1 Protein Purification</h3>
+<ul>
+<li>Lysis buffer: 20mM Tris-HCl, 100mM NaCl, 2.5mM MgCl₂, 0.5mM CaCl₂  </li>
+<li>Binding buffer: 20mM Tris-HCl, 0.1mM MgCl₂  </li>
+<li>Wash buffer: 20mM Tris-HCl, 10mM Imidazole, 200mM NaCl, 0.1mM MgCl₂  </li>
+<li>
+<p>Elution buffer: 20mM Tris-HCl, 500mM Imidazole, 50mM NaCl, 0.1mM MgCl₂
+<br></p>
+</li>
+<li>
+<p>Resuspend pellet in 20mL BugBuster®; incubate 30 min (RT).</p>
+</li>
+<li>Centrifuge (40,000 × g, 30 min, 4°C); retain supernatant.  </li>
+<li>Equilibrate Ni-Sepharose column with 30mL water → 30mL binding buffer.  </li>
+<li>Load lysate; collect flow-through.  </li>
+<li>Wash with 10mL wash buffer until A₆₀₀ ≈ 0.  </li>
+<li>Elute with elution buffer (1mL fractions) until A₆₀₀ ≈ 0.  </li>
+<li>Pool fractions with the highest absorbance; quantify protein.  </li>
+<li>Clean column (Tris + Imidazole → MilliQ → 20% EtOH).  </li>
+<li>Concentrate pooled elution with Vivaspin® to ≤ 0.5mL; exchange into HEPES buffer (repeat until Imidazole &lt; 3mM).  </li>
+<li>Verify by SDS-PAGE.</li>
+</ul>
+<hr />
+<h3 id="6-polypropylene-degradation-assay">6. Polypropylene Degradation Assay</h3>
+<ul>
+<li>Lyse cells in BugBuster® (30 min, RT) → centrifuge (40,000 × g, 30 min, 4°C).  </li>
+<li>Discard pellet; incubate supernatant with 5mg polypropylene, 2mM FeSO₄, 6mM 2-oxoglutarate in pH 7 buffer at 30°C.  </li>
+<li>Replace enzyme + cofactors every 24h.</li>
+</ul>
+<hr />
+<h3 id="7-kmno4-oxidation-of-polypropylene">7. KMnO₄ Oxidation of Polypropylene</h3>
+<ul>
+<li>Clean samples (acetone + ethanol, ultrasonic bath); dry 50°C, 1h.  </li>
+<li>Treat with 0.5M HCl / 0.25M KMnO₄ at 45°C for 2–8h.  </li>
+<li>Rinse with water until colorless.  </li>
+<li>Remove MnO₂ deposits using a 12M HCl rinse.  </li>
+</ul>
+<hr />
+<h3 id="8-colorimetric-quantification-of-surface-carboxyl-groups-pv-ni-assay">8. Colorimetric Quantification of Surface Carboxyl Groups (PV-Ni Assay)</h3>
+<p><strong>Reagents:</strong> Pyrocatechol violet (PV), Ni²⁺, 10mM HEPES pH 7<br />
+- Rinse samples thoroughly with HEPES buffer.<br />
+- Incubate plastics with 400µM Ni²⁺ in 10mM HEPES (25°C, 2 min).<br />
+- Transfer liquid → add PV (final concentration = 40µM).<br />
+- Measure absorbance at 650nm.<br />
+- Controls: KMnO₄-oxidized (positive), untreated PP (negative).<br />
+- Adapted for 96-well PP plates (transfer to flat-bottom plates for reading).<br />
+- <em>LOD</em> = (3.3 × s_blank) / m<br />
+- <em>LOQ</em> = (10 × s_blank) / m  </p>
+<hr />
+<h3 id="9-toluidine-blue-o-tbo-staining-to-quantify-surface-organic-compounds">9. Toluidine Blue O (TBO) Staining to Quantify Surface Organic Compounds</h3>
+<ul>
+<li>Treat PP microtubes with enzyme solutions (HIS1/EV + cofactors) at 30°C for 48h.  </li>
+<li>Ultrasonically clean (1% SDS → water → 75% EtOH); dry at ~50°C 1h.  </li>
+<li>Incubate in 0.1% TBO / 1mM NaOH (40°C, 15 min, 250rpm).  </li>
+<li>Wash in 1mM NaOH until supernatant is clear (~4×).  </li>
+<li>Desorb dye with 20% SDS (40°C, 30 min, 250rpm).  </li>
+<li>Measure absorbance at 630nm.  </li>
+<li>Adaptable to KMnO₄-treated 96-well plates (same steps).</li>
+</ul>
+<hr />
+<h3 id="10-surface-contact-angle-sca-measurement">10. Surface Contact Angle (SCA) Measurement</h3>
+<ul>
+<li>Clean PP pieces (70% EtOH → water); dry (55°C, 1h).  </li>
+<li>Measure initial contact angles using 7µL water droplets (2 min per run).  </li>
+<li>Treat plastics with HIS1 or EV lysate (overnight) or KMnO₄ (4–8h).  </li>
+<li>Post-treatment cleaning: sonicate in 1:10 IPA + water (3 min), wash (EtOH + water), dry (55°C).  </li>
+<li>Re-measure daily for 5 days (replace reaction mixture every 24h).</li>
+</ul>
+<hr />
+<h3 id="11-ftir-analysis">11. FTIR Analysis</h3>
+<ul>
+<li>Clean 1cm × 1cm PP films (1% SDS → water → EtOH); dry (50°C, 1h).  </li>
+<li>Perform FTIR (Dr. Simone Dimartino’s lab, Bioengineering, UoE).</li>
+</ul>
+<hr />
+<h3 id="12-afm-analysis">12. AFM Analysis</h3>
+<ul>
+<li>Prepare 6mm PP discs; treat with buffer, HIS1, HIS1 lysate, or EV lysate.  </li>
+<li>Clean (1% SDS → water → EtOH); dry (50 °C, 1 h).  </li>
+<li>Acquire AFM images at 1 µm and 10 µm scales (1 Hz scan, 256 × 256 pixels).  </li>
+<li>Analyze surface roughness and thickness.</li>
+</ul>
+<hr />
+<h3 id="13-gc-ms-analysis">13. GC-MS Analysis</h3>
+<ul>
+<li>Treat 5mg PP films with purified HIS1 or HEPES control (72h, 30°C); replace mixtures daily.  </li>
+<li>Pool reactions; add 3:1 cold methanol, incubate on ice (30 min).  </li>
+<li>Centrifuge (12,000rpm, 30min, 4°C); collect supernatant.  </li>
+<li>Add 10% DCM; inject 1µL onto DB-5ms column (40m × 250µm × 0.25µm).  </li>
+<li>Carrier: helium (1mL/min), 70eV ionization.  </li>
+<li>Analyse chromatograms and identify peaks via NIST library.</li>
+</ul>
+<hr />
+<h3 id="14-tlc-analysis-of-hpp-breakdown">14. TLC Analysis of HPP Breakdown</h3>
+<ul>
+<li>Prepare 300µL HIS1/EV lysates and 0.5mg/mL pure HIS1/HEPES reactions (2mM FeSO₄, 6mM 2-oxoglutarate, 6mM HPP or no HPP as control).  </li>
+<li>Incubate 30°C, 24h.  </li>
+<li>Spot samples on silica gel TLC plates.  </li>
+<li>Run in ethyl acetate:hexane:acetic acid = 70:30:2.  </li>
+<li>Air dry; visualize under UV light.</li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 iDEC. CC-BY-4.0 | The International Directed Evolution Competition (iDEC) is a Scottish Charitable Incorporate Organisation (SCIO), registered in Scotland, with charity number：SC050826
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../../javascripts/config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tables.js"></script>
+      
+    
+  </body>
+</html>
