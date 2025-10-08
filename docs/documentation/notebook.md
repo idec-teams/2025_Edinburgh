@@ -102,5 +102,32 @@
 -	Ligation into backbone, transformation into competent cells=> did not work, due to low backbone concentration => Increasing backbone conc. worked and produced colonies
 -	Moved labs.
 
-tbc
+### Week 12 (01/09-05/09)
+-	Created asymmetric PCR product for residues 110, 148, 268, 297, 304, 305 => tried full-length gene synthesis => failed, no bands observed.
+-	Combinatorial library synthesis deferred due to lack of time.
+-	Sequencing results came back for heterogeneous liquid culture => did not work, sent in samples from individual colonies.
+-	Report writing
+
+  
+### Week 13 (08/09-12/09)
+-	Sequencing results for individual colonies worked, but no mutation was observed
+-	All work on directed evolution halted due to a lack of time and further screening methods.
+-	Planning KMnO4 time treatment
+-	KMnO4 timed treatment. (2hrs, 4hrs, 6 hrs, 8hrs). 
+-	Report writing
+
+### Week 14 (15/09-19/09)
+-	Final AFM results meeting with Dr. Laura Charlton
+-	Final Assay Development Tests (TBO and Nickel-Pyrocathecol Violet) with the timed KMnO4 treatments.
+  
+### Week 15 (22/09-26/09)
+-	Report writing
+
+### Week 16 (29/09-03/10)
+-	01/10 – SUBMITTED OUR REPORT
+-	Clear out the lab
+  
+### Week 17 (06/10-10/10)
+-	08/10 – FINISHED WIKI
+
 
