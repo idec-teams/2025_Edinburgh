@@ -44,7 +44,7 @@
 ---
 
 ![Rick](Rick2.jpg)    
-### Rick Miyamoto  
+### Rikuo Miyamoto  
 
 **Role:** Team Member  
 **Degree:** BSc Biological Sciences (Biotechnology)  
