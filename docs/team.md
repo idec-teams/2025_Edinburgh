@@ -56,4 +56,13 @@
 ### Our Supervisors
 Heather Barker, Joanna Sadler, Chris French, and Nadanai Laohakunakorn
 
+---
+
+![teampic1](team10.jpg) ![teampic2](team6.jpg) ![teampic3](team8.jpg) ![teampic4](team7.jpg) ![teampic5](team9.jpg) 
+
+
+
+
+
+
 
